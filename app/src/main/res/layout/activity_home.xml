@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/gradient_background"
+    >
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="271dp"
+        android:layout_height="86dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        app:fontFamily="@font/dancing_script_bold"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="To Auto Detect Location \n                           (Click here)   ->"
+            android:textColor="#000"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/playfair_display_italic" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            app:fontFamily="@font/playfair_display_italic"
+            android:textColor="@drawable/gradient_background" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+
+
+        android:background="#f63b2ef9"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/State"
+        android:layout_width="52dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="0.5"
+        android:text="State :"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/playfair_display_italic"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.198" />
+
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        android:id="@+id/States"
+        android:layout_width="202dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="0.5"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <TextView
+        android:id="@+id/City"
+        android:layout_width="51dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:text="City :"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/playfair_display_italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        android:id="@+id/Cities"
+        android:layout_width="206dp"
+        android:layout_height="39dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="0.5"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="155dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#9796f0"
+        android:text="Submit"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:fontFamily="@font/playfair_display_italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear1"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+
+        android:text="OR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <Button
+        android:id="@+id/Emergency"
+        android:layout_width="121dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/backe"
+        android:text="Emergency"
+        android:textStyle="bold"
+        android:textColor="#000"
+        app:fontFamily="@font/playfair_display_italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear1"
+        app:layout_constraintVertical_bias="0.864" />
+
+    <ImageButton
+        android:id="@+id/imageView7"
+        android:layout_width="77dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.811"
+        android:background="#b0e7e4"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.659"
+        app:srcCompat="@drawable/firstaid" />
+
+    <ImageButton
+        android:id="@+id/imageView9"
+        android:layout_width="74dp"
+        android:layout_height="70dp"
+        android:background="#a4e4ed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463"
+        app:srcCompat="@drawable/ic" />
+
+    <ImageButton
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#b0e7e2"
+
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.241"
+        app:srcCompat="@drawable/ayurvedic" />
+
+    <ImageButton
+        android:id="@+id/imageView11"
+        android:layout_width="76dp"
+        android:layout_height="68dp"
+        android:background="#a4e4ed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46"
+        app:srcCompat="@drawable/knowyourmed" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="141dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:text="Health Tips"
+        android:textColor="#000"
+
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/playfair_display_italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="134dp"
+        android:layout_height="39dp"
+        android:layout_weight="1"
+        android:textColor="#000"
+
+
+        android:text="Know your Med"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/playfair_display_italic"        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="124dp"
+        android:layout_height="38dp"
+        android:layout_weight="1"
+        android:text="First Aid Tips"
+        android:textColor="#000"
+        android:textSize="17dp"
+
+        android:textStyle="bold"
+        app:fontFamily="@font/playfair_display_italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="148dp"
+        android:layout_height="34dp"
+        android:layout_weight="1"
+        android:text="Ayurvedic Tips"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        app:fontFamily="@font/playfair_display_italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726" />
+
+    <ImageButton
+        android:id="@+id/imageView5"
+        android:layout_width="83dp"
+        android:layout_height="71dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        android:background="#bbe9dc"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867"
+        app:srcCompat="@drawable/aarogyasri" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="136dp"
+        android:layout_height="28dp"
+        android:text="Health Schemes"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/playfair_display_italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911" />
+
+    <ImageButton
+        android:id="@+id/location"
+        android:layout_width="66dp"
+        android:layout_height="72dp"
+        android:background="#8ddefd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/loc" />
+
+
+</android.support.constraint.ConstraintLayout>

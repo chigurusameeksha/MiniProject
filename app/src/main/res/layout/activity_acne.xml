@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Acne">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:text="Wash Your Face Daily
+"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="The first and most important rule isn't groundbreaking: Remember to wash your face! Cleansing and treating your skin twice a day is the best way to keep breakouts away. For those emergencies when you're just too tired to wash your face, keep a stash of face wipes in the drawer of your nightstand. This way if you get home super late and don’t feel like going all the way to the sink, you can still go to bed with clean skin!"                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:text="Use the Right Face Cleanser
+"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+
+                android:text="Buying a generic face wash won’t necessarily improve your complexion. For a cleanser to be most effective, you have to pay attention to your skin’s needs and pick the ingredients accordingly. If your skin tends to be oily, choose products with salicylic acid, benzoyl peroxide, or glycolic acid. For sensitive skin, look for gentle cleansers with lactic acid or hydrating ingredients like glycerin, which aren’t as drying as those made for oilier types.
+"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:text="Don't Over-Exfoliate Your Skin
+"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+
+                android:text="Scrubbing your face daily with grainy cleansers and exfoliating products can do more harm than good. When done too often, it can cause redness, inflammation, and irritation. “Exfoliating a pimple can pull away healthy skin cells and create an open wound and higher risk for scarring,” says Jessica Weiser, MD, from New York Dermatology Group. “Exfoliation should be done with caution, and not more than 2-3 times a week maximum.”"                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:text="Regularly Change Your Face Towel
+"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="When you think about it, consistently reaching for your go-to face towel every day is like reusing a dinner napkin over and over again. Using dirty towels can harbor bacteria, and they can even introduce new bacteria to your skin, which may lead to more pimples."                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

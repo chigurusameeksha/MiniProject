@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Periods">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Practice yoga"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Yoga has been shown to be an effective treatment for different menstrual issues. A 2013 study with 126 participants found that 35 to 40 minutes of yoga, 5 days a week for 6 months lowered hormone levels related to irregular menstruation "                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Maintain a healthy weight
+" android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+
+                android:text="Changes in your weight can affect your periods. If you’re overweight or obese, losing weight could help regulate your periods"
+
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Exercise regularly
+"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+
+                android:text="Exercise has many health benefits that can help your periods. It can help you reach or maintain a healthy weight and is commonly recommended as part of a treatment plan for polycystic ovary syndrome (PCOS). PCOS can cause menstrual irregularity."                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="cinnamon"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Cinnamon appears to be beneficial for a variety of menstrual issues.
+
+A 2014 study found it helped regulate menstrual cycles and was an effective treatment option for women with PCOS, though the study was limited by a small number of participants"                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

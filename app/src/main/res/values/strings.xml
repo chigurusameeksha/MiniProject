@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Care Zone</string>
+    <string name="textfront">Care Zone</string>
+    <array name="healthtips">
+        <item>Choose one</item>
+        <item>Cold</item>
+        <item>Cough</item>
+        <item>fever</item>
+        <item>Migrane</item>
+        <item>Periods</item>
+        <item>Acne</item>
+    </array>
+</resources>

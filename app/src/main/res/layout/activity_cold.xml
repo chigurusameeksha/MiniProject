@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Cold">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:fontFamily="@font/playfair_display_italic"
+
+                android:justificationMode="inter_word"
+                android:text="Chicken Soup"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="You should have some, and not just because Mom says so. Studies shows it clears nasal passages and congestion better than other hot liquids. It also has an anti-inflammatory effect that may help your cold symptoms."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+                app:fontFamily="@font/playfair_display_italic"
+
+                android:justificationMode="inter_word"
+                android:text="Citrus"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="You’ve heard it before: To avoid colds, get plenty of vitamin C. Truth is, it won’t keep most of us from catching one. (It may help if you’re around people who get sick often, like at a day care.) But if you get a lot of it right before you notice symptoms, it may make you feel better and help you get rid of a cold faster. Oranges, lemons, limes -- they’re all sources of vitamin C and can be tasty, too"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Ginger"
+                android:textSize="18dp"
+                app:fontFamily="@font/playfair_display_italic"
+
+                android:justificationMode="inter_word"
+
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="A cup of fresh, hot ginger tea may seem to be just the thing you need when you’re nursing a cold. It helps lclear congestion and soothe your throat. And some studies show this spicy root may help prevent the common cold by blocking the virus."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Dairy"
+                android:textSize="18dp"
+                app:fontFamily="@font/playfair_display_italic"
+
+                android:justificationMode="inter_word"
+
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Milk, ice cream, cheese: Dairy gets a bad rap. Common wisdom says to avoid it when you're stuffy or runny because you'll make more mucus. But there’s little evidence to support this. So if you crave ice cream to soothe that sore throat, go ahead and indulge."
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+                app:fontFamily="@font/playfair_display_italic"
+
+                android:justificationMode="inter_word"
+                android:text="Caffeine and Alcohol"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:text="You’re better off avoiding these. You need lots of liquids when you have a cold, but caffeine and alcohol are no-nos because they can dry you out. Of course, if you get a raging withdrawal headache without your morning coffee, by all means, have a small cup of joe. Or try a little caffeinated tea instead."
+                android:textColor="#000" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".KnowYourMed">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:text="Paracetamol"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Malidens 500mg Tablet 10'S\nCalpol 500mg Tablet 15'S"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Dolo"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="P 650 TabletApex Laboratories Pvt Ltd. ₹2.02/Tabletsave 2% \n
+Xykaa Rapid 650 TabletTroikaa Pharmaceuticals Ltd. ...\n
+Calpol 650mg TabletGlaxo SmithKline PhaFepanil 650 TabletVeritaz Healthcare Ltd. ₹2.05/Tabletsame price.\n
+rmaceuticals Ltd. ...\n"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Cipla"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Femistra TabletZydus Cadila. ₹22.8/Tabletsave 64%\n
+Femitraz TabletLupin Ltd. ₹50.7/Tabletsave 19%\n
+Altraz TabletAlkem Laboratories Ltd. ₹57.86/Tabletsave 8%\n
+Stazonex TabletAbbott. ₹67.22/Tablet7% costlier.\n
+Azelon 1mg TabletVhb Life Sciences Inc. ₹105.71/Tablet68% costlier\n"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Dolopar"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="P 650 TabletApex Laboratories Pvt Ltd. ₹2.02/Tabletsave 2%\n
+Xykaa Rapid 650 TabletTroikaa Pharmaceuticals Ltd. ₹2.05/Tabletsame price.\n
+Dolo 650 TabletMicro Labs Ltd. ₹2.05/Tabletsame price.\n
+Calpol 650mg TabletGlaxo SmithKline Pharmaceuticals Ltd. ...\n
+Pyrigesic 650 TabletEast India Pharmaceutical Works Ltd.\n "
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Meftalspas"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Mefril Spas Tablet 10s\n
+Mefwel Spas Tablet 10s\n
+Coliza Tablet 10s	\n
+Meftal Spas Tab\n"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Cyclopam"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Spasmex 20 mg/500 mg TabletHema Laboratories. ₹1.08/Tabletsave 78%\n
+Colif 20 mg/500 mg TabletSanzyme Ltd. ₹2.95/Tabletsave 39%\n
+Colicspam 20 mg/500 mg TabletLeben Life Sciences Pvt Ltd. ₹3/Tabletsave 38%\n
+Colimex TabletWallace Pharmaceuticals Pvt Ltd. ₹3.3/Tabletsave 32%\n
+Baralgan NU TabletSanofi India Ltd.\n"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

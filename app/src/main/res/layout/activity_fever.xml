@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_background"
+    android:layout_height="match_parent"
+    tools:context=".Fever">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Rest"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Activity can raise your body temperature. You need to rest in order to recover and reduce a fever. For an adult whose fever is 102°F (38.9°C) or lower, the recommendation is simply to rest and drink lots of fluids. Medication isn’t always necessary. Getting enough sleep can also help to support the integrity of your immune system, so your body can fight fever-causing viruses like a cold or flu."
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="A cool environment"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+
+                android:text="Keeping the room temperature cool and sleeping with only a sheet or light blanket can help keep you cooler. If your child has a fever, adjust the temperature in the house or bedroom to help keep them cool."
+                android:layout_margin="10dp"
+ />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Tepid Sponging"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+
+                android:text="Placing a cool, damp washcloth on your forehead and the back of your neck can help your fever symptoms feel better. You might also want to give yourself a sponge bath with cool water, focusing on high-heat areas like your armpits and groin. Normally, this method, known as tepid sponging, is done for about 5 minutes. Like staying in a cool environment and wearing light clothing, this physical measure for reducing a fever may not be as effective as fever-reducing medications"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Hydration"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+
+                android:layout_margin="10dp"
+                android:text="Having a fever can cause fluid loss and dehydration. It’s important to drink plenty of fluids when you have a fever. Adequate fluid intake is often advised as part of a treatment plan for fever-inducing infections like the flu"
+ />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

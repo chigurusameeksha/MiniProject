@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Migrane">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Acupressure"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Acupressure involves the application of pressure to specific parts of the body. Stimulating specific points of the body in this way is believed to release muscle tension and alleviate pain.
+
+One popular pressure point is the LI-4 point in the space between the base of the left thumb and pointer finger.
+
+Applying firm but not painful circular pressure to the LI-4 point, using the opposite hand for 5 minutes, may relieve headache pain."                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:layout_margin="10dp"
+                android:text="Diet changes"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Common food triggers for migraines include:\n
+-processed foods\n
+-red wine\n
+-alcohol\n
+-chocolate
+\n
+-caffeinated beverages
+
+
+
+"                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:layout_margin="10dp"
+                android:text="Essential oils"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Essential oils are often used as natural remedies or as an antimicrobial in homemade cleaning products.
+
+Lavender is an essential oil often recommended as a remedy for stress, anxiety, and headaches."                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Ginger"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="The researchers found the effectiveness of ginger was statistically comparable to sumatriptan, and users were as willing to continue with either treatment.
+
+One definite benefit for people who get migraines is that using ginger cannot hurt and, aside from an existing allergy, there are no side effects to using it."                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Yoga or stretching"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Yoga is thought to help improve blood flow and reduce muscle tension, which can help relieve symptoms for people who get migraines."                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Stay hydrated"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+
+                android:text="Not drinking enough water is a well-known migraine and headache trigger, and it only takes minor dehydration to bring on a headache.
+
+People can try to drink more water each day to avoid dehydration. People with severe dehydration may initially need an oral rehydration solution to replace missing electrolytes."
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

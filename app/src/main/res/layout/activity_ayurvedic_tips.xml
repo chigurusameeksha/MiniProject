@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Cough">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Periods"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="The most simple and effective treatment for PCOD is Ayurveda. You can rely on Aloe Vera pulp with manjistha (rubia cordifolia) capsule. This helps in purifying blood and gradually restores the health of uterus which results in regular, healthy periods.-irregular periods"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Skin Care and Acne"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Neem leaves are the perfect and most popular Ayurvedic remedy for treating pimples. Apply neem paste (Rosewater) on the affected area, leave it on until dry, rinse with water and pat dry. Make neem leaf paste by boiling and crushing 10 Tender leaves"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Raisins are a very good Cooling agent and Blood Purifier. Take 30-40 small raisins, Soak it in water overnight. Crush it and take the Mixture in the Morning on empty stomach for 2-3 months regularly for Controlling Acne."
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Triphala is a popular Ayurvedic remedy for skin. It balances the tridosha (Vata, Pitta and Kapha), detoxifies the whole body, fights against bad bacteria and helps in your Acne healing. Take 1 tsp. of triphala with hot water at Bedtime (or) on an empty stomach every morning."
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Lauki juice is extremely beneficial as its high water content will keep body cool and skin healthy. It cleanses your body system within, prevents pimples and gives a smooth and beautiful skin. Take a lauki, pee of the outer skin, wash it thoroughly. Cut the lauki into small pieces and put it into the blender. Extract the juice, add a pinch of salt and drink it on an empty stomach in the Morning"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Blood Pressure"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Amla or Indian Gooseberry is an effective ayurvedic medicine for blood pressure. It has Vitamin C which helps reduce blood cholesterol levels and widens blood vessels. If you have amla juice every morning on an empty stomach it can control hypertension and other ailments too."
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Gotu Kola also known as Indian Pennywort is commonly used in Traditional Chinese and Ayurvedic medicine. This bitter herb, taken in small quantities, can prove beneficial for blood circulation and control blood pressure."
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Ashwagandha or Indian Ginseng is a natural herb that you can add to your evening tea in small quantities. It has been proven to lower blood pressure. Studies also suggest that it can reduce blood sugar levels in people with diabetes."
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Cold and Cough"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="1. Tulsi\n
+
+In Ayurveda, Tulsi is known as “Mother Medicine of Nature” and “The Queen of Herbs”. Tulsi leaves help improve the individual’s ability to fight against common cold as well as cough. \n\nHow it works\n\nTulsi boosts the production of antibodies thereby preventing the onset of any infections. Tulsi has cough relieving properties. It helps soothe the airways by helping you cough out the sticky mucus.\n\nHow to take\nTulsi leaves
+Chew 4-5 tulsi leaves the first thing in the morning. You can continue taking Tulsi leaves to boost your immunity.\n
+Tulsi kadha
+
+Take a few tulsi leaves. Wash it well.\n
+Boil water in a pan, add the tulsi leaves\n
+To it, add 1 teaspoon of grated ginger and 5-6 peppercorns.\n
+Boil the mixture for at least 10 minutes.\n
+Finally, add a pinch of black salt and squeeze ½ lemon to it.\n
+Let it stand for 1 minute.\n
+Strain and drink it warm.\n\n
+Tulsi Tea\n
+
+Add fresh tulsi leaves to 1½ cups of water.\n
+Boil on a medium flame for 10 minutes.\n
+Strain the water using a strainer.\n
+Add lemon juice and mix well.\n
+Drink warm to get relief from cough and cold.\n\n\n
+2. Honey\n
+
+With loads of antimicrobial properties, honey is not only heavenly for your taste buds but also helps ease sore throat. It is an effective cough suppressant. \n\n
+
+How it works\n
+
+Honey provides relief from chest congestion by loosening thick mucus and helping you to cough it out. This helps reduce wet cough.\n\n
+
+How to take\n
+
+Take a teaspoonful of honey before going to bed at night to reduce the severity of cough. Continue till you do not get relief from cough.
+Honey in Ginger Juice\n
+
+Take 1 teaspoon honey.\n
+Add 1 teaspoon of ginger juice and 1 pinch of black pepper.\n
+Take once in the morning and once before going to bed at night to get relief from a sore throat and cough.\n
+Honey is a miracle of nature which not only aids in improving digestion but boosting your metabolism also. Keep a check on your overall health with a comprehensive full body check-up.\n\n
+
+3. Mulethi\n
+
+Mulethi or Licorice, also known as “Sweet wood”, is an effective Ayurvedic herb for cough. Mulethi powder is useful in managing sore throat, cough and excessive production of mucus in the airway.\n\n
+
+How it works\n
+
+Mulethi has expectorant property. It thins and loosens the mucus inside the airways. This eases coughing and reduces congestion.\n\n
+
+How to take\n
+
+Mulethi water\n
+
+Take 1 teaspoon Mulethi powder and add to 1 glass of warm water. Drink this twice a day.\n\n
+Mulethi tea\n
+
+Take 1 small piece of Mulethi root and add it to boiling water.\n
+Add grated ginger and let it simmer for around 5 minutes. \n
+Add a tea bag and drink this tea twice a day.\n\n
+Mulethi kadha\n
+
+Take 1/4 teaspoon mulethi powder, a pinch of cinnamon powder, black pepper powder and few tulsi leaves.\n
+Add to 1 cup of boiling water. Simmer for 5 minutes.\n
+Transfer to a cup and add 1 teaspoon honey to it. \n
+Drink this kadha twice a day.\n\n\n
+
+4. Pippali\n
+
+Pippali is an effective herb in managing cough and cold. Studies state that it gives relief from headache and congestion associated with common cold.\n\n
+
+How it works\n
+
+Pippali loosens mucus and helps to cough it out, thus allowing the patient to breathe freely. This is due to its expectorant property.\n\n
+
+How to take\n
+
+Pippali Churna\n\n
+
+Take a pinch of pippali churna.\n
+Swallow it with 1 teaspoon honey.\n
+Repeat 1-2 times a day and continue till cold and cough subsides.\n\n\n
+5. Sonth\n
+
+Dry ginger popularly known as sonth or sukku or soonth is one of the main ingredients of herbal cough syrups. Sonth, when taken with honey, acts as a soothing remedy for cough and cold.\n\n
+
+How it works\n
+
+Sonth contains certain molecules that have anti-inflammatory properties. This helps reduce sore throat.\n\n
+
+How to take\n
+
+Sonth with honey\n
+
+Take 1/4 teaspoon sonth and add to 1 teaspoon honey. \n
+Mix well and take it twice a day for at least 3 days.\n
+Sonth goli\n\n
+
+Take 2-3 tbsp of desi ghee in a pan. Keep the flame low.\n
+Add 2-3 teaspoon jaggery powder and let it melt. To this add 2-3 tbsp sonth powder. Mix well.\n
+Allow it to cool. \n
+Shape into bite-sized balls.\n
+You can take 1 goli twice a day.\n\n\n
+
+6. Giloy\n
+
+Giloy, also known as Amrita or Guduchi in Hindi, has heart-shaped leaves that resemble betel leaves.\n
+
+It helps manage cold and cough caused due to allergic reactions to pollution, smoke or pollen. It also helps to manage cold and tonsillitis. It is also the most effective herb to boost immunity. \n\n
+
+How it works\n
+
+Giloy has good anti-inflammatory property. This helps reduce frequent cough as well as a sore throat.\n\n
+
+How to take\n
+
+Giloy juice\n
+
+Take two teaspoons of Giloy juice with warm water on an empty stomach in the morning.\n\n
+Giloy tablet\n
+
+Alternatively you can also take 1 Giloy tablet with warm water in the morning.\n
+You can buy Giloy juice or tablet from any Ayurvedic store or buy online.\n
+Quick tips to keep distance from cold and cough:\n\n
+
+Wash your hands properly with soap and water for at least 20 seconds to prevent the spread of cold viruses.\n\n
+Avoid touching your face, eyes, nose. \n\n
+Sanitize your hands with alcohol-based hand gels after touching contaminated surfaces at work-place like door-knobs, mouse, chair handles, etc.\n\n
+Keep a distance of 6 feet from people who are suffering from cold and cough.\n\n
+Wear a mask whenever you step outside the house or whenever you come in contact with people you don’t live with.\n\n
+Increase your water intake and have hot tea and liquids.\n\n
+Do steam inhalation by adding 1-2 drops of eucalyptus oil in a bowl of hot water. Repeat 2-3 times a day to get relief from a stuffy nose.\n \n
+Strengthen your immune system by taking a balanced diet rich in vitamin C food.\n\n
+Lastly, indulge in some form of exercise or yoga to keep yourself active."                android:textColor="#000" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".HealthSchemes">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="AAROGYA SRI"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="Health insurance scheme is highly beneficial for availing quality health care services in the states of Andhra Pradesh and Telangana. Here are the features and benefits of the plan:
+"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:text="Hospitalization (In-patient care):"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="All the diseases that are listed under the programme and require hospitalization are covered.
+"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:text="Out-Patient Treatment:"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="These treatments can be availed at health camps and in the network hospitals in a cashless manner.
+"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:text="Cashless Services: "
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="The beneficiaries of the plan have access to a financial cover of Rs. 5 Lakh per year per family. It can be used by any registered family member when they need medical attention.
+"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:text="Coverage For Pre-existing Diseases: "
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text="A coverage for diseases that a beneficiary might already suffer from before registering under the scheme, is provided under this plan. This feature is not common among commercial health insurance plans.
+"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18dp"
+
+                app:fontFamily="@font/playfair_display_italic"
+                android:text="Eligible Hospitals "
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+
+                android:text=" 1.Aarogyasri Health Care Trust\n
+2.Guru Nanak- CARE Hospitals - Musheerabad, HYD\n
+3.Yashoda Hospitals - Somajiguda\n
+4.Sri Sai Kidney Centre Somajiguda\n
+5.Nampally Government Hospital\n
+6.Yashoda Hospitals - Secunderabad\n
+7.NIMS OPD REGISTRATIONS FOR AAROGYASRI BLOCK\n
+8.Medicover Hospitals Chandanagar | Best Hospitals in Chandanagar\n
+9.Basavatarakam Indo American Cancer Hospital and Research Institute\n
+10.Yashoda Hospitals - Malakpet\n
+11.Ankith Multi speciality hospital\n
+12.Aditya Hospital\n
+13.Owaisi Hospital and Research Centre\n
+14.Kamineni Hospitals - King Koti\n
+15.Good Will Kidney and Surgical Center\n
+16.SIGMA HOSPITALS JEEDIMETLA\n
+17.Mamidipudi Nagarjuna Area Hospital Malakpet\n
+18.S.V. Pooja Hospital\n
+19.NIMS Hospital\n
+20.Sridhar Multi Speciality Hospitals\n
+21.CARE Hospitals - Market Street, Secunderabad\n
+22.Government ENT Hospital\n
+23.PACE Hospitals - Hitech City\n
+24.Government Area Hospital, Vanasthalipuram\n
+25.CARE Hospitals - Banjara Hills, Hyderabad\n
+26.Vasavi Hospital:Orthopedic Treatment,Doctor in Hyderabad General Physician,Diabetologist\n
+27.Alpha Super Speciality Hospital\n
+28.Sowjanya Dental Hospital\n
+29.Apollo Hospitals Secunderabad\n
+30.Medicover Women and Child Hospital\n
+31.Kims hospital\n
+32.LV Prasad Eye Hospital\n
+33.FMS DENTAL HOSPITAL, Dental Implant Clinic Langar House Hyderabad India\n
+34.Apollo White Dental Clinic and Hospital\n
+35.Government Fever Hospital
+"
+                android:textColor="#000" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

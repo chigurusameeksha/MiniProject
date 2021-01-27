@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecialSearch"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="34dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        >
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            app:fontFamily="@font/playfair_display_italic"
+            android:text="\nSerach by Specialization\n of Hospitals\n" />
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/Spec"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            app:fontFamily="@font/playfair_display_italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.904"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.456" />
+
+        <Button
+            android:id="@+id/submits"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back"
+            android:text="Submit"
+            android:textColor="#fff"
+
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
